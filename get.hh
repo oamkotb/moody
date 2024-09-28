@@ -7,7 +7,6 @@ const char* serverName = "http://140.238.145.138:5000/latest_event";
 
 void setup() {
   Serial.begin(115200);
-
   // Connect to Wi-Fi
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
